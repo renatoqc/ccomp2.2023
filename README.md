@@ -1,2 +1,3 @@
 # CCOMP2.2023
-# Renato Quispe -UCSP
+# Renato - UCSP
+#Ciencia de la Computacion
