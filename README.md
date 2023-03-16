@@ -1,1 +1,2 @@
-# ccomp2.2023
+# CCOMP2.2023
+# Renato Quispe -UCSP
