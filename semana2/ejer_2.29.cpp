@@ -25,5 +25,6 @@ int main () {
 
     cout<<"Logintud de la cara del cubo (cm): \t El area de la superficie del cubo (cm^2): \t El volumen del cubo (cm^3): "<<endl;
     cout<<n1<<"\t\t\t\t\t "<<area1<<"\t\t\t\t\t\t "<<volumen1<<"\n"<<n2<<"\t\t\t\t\t "<<area2<<"\t\t\t\t\t\t "<<volumen2
-    <<"\n"<<n3<<"\t\t\t\t\t "<<area3<<"\t\t\t\t\t\t "<<volumen3<<"\n"<<n4<<"\t\t\t\t\t "<<area4<<"\t\t\t\t\t\t "<<volumen4<<"\n"<<n5<<"\t\t\t\t\t "<<area5<<"\t\t\t\t\t\t "<<volumen5;
+    <<"\n"<<n3<<"\t\t\t\t\t "<<area3<<"\t\t\t\t\t\t "<<volumen3<<"\n"<<n4<<"\t\t\t\t\t "<<area4<<"\t\t\t\t\t\t "<<volumen4
+    <<"\n"<<n5<<"\t\t\t\t\t "<<area5<<"\t\t\t\t\t\t "<<volumen5;
 }
