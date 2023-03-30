@@ -1,9 +1,11 @@
 #include <string>
+using namespace std;
+#include <iostream>
 
 class Account {
 public:
 
-Account(std::string accountName, int initialBalance )
+Account(string accountName, int initialBalance )
 : name{accountName} { 
     if (initialBalance > 0) { 
     balance = initialBalance;
@@ -11,6 +13,13 @@ Account(std::string accountName, int initialBalance )
 
 }
 
+    void retiro_(int retirocuenta){
+        if (retirocuenta > balance){
+            std::cout << "El monto del retiro excedió el saldo de la cuenta.\n";
+        } else {
+            balance = balance - retirocuenta;
+        }  
+    }
     void deposit(int depositAmount) {
         if (depositAmount > 0) { 
             balance = balance + depositAmount;
@@ -20,16 +29,17 @@ Account(std::string accountName, int initialBalance )
         return balance;
 }
 
- void setName(std::string accountName) {
+ void setName(string accountName) {
  name = accountName;
  }
 
  
- std::string getName() const {
+    string getName() const {
  return name;
  }
- private:
-std::string name;
+private:
+string name;
 int balance{0};
+int retiro;
 
 };

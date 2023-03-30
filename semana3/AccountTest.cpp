@@ -33,5 +33,16 @@ account2.deposit(depositAmount);
  cout << "\naccount2: " << account2.getName() << " balance is $"
  << account2.getBalance() << endl;
 
+ cout <<"\n\n Enter withdrawal amount for account1: ";
+ int retirocuenta;
+ cin >> retirocuenta;
+ cout <<" Withdrawing " << retirocuenta << " to account1 balance\n";
+ account1.retiro_(retirocuenta);
+
+cout << "\naccount1: " << account1.getName() << " balance is $"
+ << account1.getBalance();
+ cout << "\naccount2: " << account2.getName() << " balance is $"
+ << account2.getBalance() << endl;
+
  
-}
+} 
