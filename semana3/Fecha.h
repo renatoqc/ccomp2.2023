@@ -12,8 +12,8 @@ public:
         dia = dia_;
         año = año_;
         
-        if(mes > 0 && mes < 13){
-            mes_ = mes;
+        if(mes_ > 0 && mes_ < 13){
+            mes = mes_;
         }else{
             cout << "El mes es incorrecto.";
         }

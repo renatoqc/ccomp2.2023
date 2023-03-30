@@ -15,8 +15,10 @@ int main(){
     cout << "Ingrese en que año estamos: ";
     int año_;
     cin >> año_;
+    
+    Fecha f{dia_, año_, mes_};
 
-    cout << dia_ << " / " << mes_ << " / " << año_;
+    cout << f.getDia() << " / " << f.getMes() << " / " << f.getAño();
 
 
     
