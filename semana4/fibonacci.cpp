@@ -1,21 +1,22 @@
 #include <iostream>
-using namespace std;
+
+using namespace std; 
 
 int main(){
-    int n;
+    int n; 
 
-    cout << "Ingrese un numero: ";
+    cout << "Ingrese el numero: ";
     cin >> n;
+
     int n1, n2, fib;
-    n1 = n2 = fib = 1;
-    while (n > 0){
-
-        fib = n1 + n2;
-        n1 = n2;
-        n2 = fib;
-
-        cout << "Fib de " << n << " es " << fib;
-    }
-
+    n1 = n2 = 1;
+    
+    for(int i = 0; i < n; i++){
+            fib = n1 + n2;
+            n1 = n2;
+            n2 = fib;
+        }
+        cout <<"El fib de "<< n << " es "<< n1 <<endl;
+    
     return 0;
 }
