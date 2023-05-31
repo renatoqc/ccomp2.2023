@@ -30,3 +30,13 @@ public:
         cantidad = c;
     }
 };
+class maceta : public Articulo {
+    string tipo;
+
+public:
+    Planta(const string& nombre, float precio, int cantidad, const string& tipo)
+        : Articulo(nombre, precio, cantidad), tipo(tipo) {}
+
+    // Agrega un getter para el tipo
+    string getTipo() const { return tipo; }
+};

@@ -1,4 +1,5 @@
 #include <iostream>
+#include "Articulo.h"
 using namespace std;
 
 class Fertilizante {
@@ -30,3 +31,15 @@ public:
         cantidad = c;
     }
 };
+class fertilizante : public Articulo {
+    string tipo;
+
+public:
+    Planta(const string& nombre, float precio, int cantidad, const string& tipo)
+        : Articulo(nombre, precio, cantidad), tipo(tipo) {}
+
+ 
+    string getTipo() const { return tipo; }
+};
+
+

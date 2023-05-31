@@ -32,6 +32,7 @@ int main(){
     int sali_;
     cin >> sali_;
 
+    
     Planta plantas[15] = {
         Planta("Rosa", 20.0, 10, "Planta ornamental"),
         Planta("Margarita", 15.0, 5, "Planta ornamental"),
@@ -136,7 +137,6 @@ int main(){
     cout << "Compra realizada con éxito. Total a pagar: $" << total << endl;
 
     cout << "Hora de salida: ";
-    int sali_;
     cin >> sali_;
 
     return 0;
